@@ -47,4 +47,6 @@ The speed prediction for test video(test.mp4) is generated and saved in this rep
 
 First, download the data folder from [speedchallenge](https://github.com/commaai/speedchallenge). Then just run the speed_challenge.py (make sure tools.py and data folder are available in the same directory). 
 
+## Future Improvement 
 
+The model does not currently predict the car's speed accurately where there is no lane lines. This issue is most obvious in the testset and should be  addressed in the future improvements.   
