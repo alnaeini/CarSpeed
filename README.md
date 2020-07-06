@@ -43,4 +43,8 @@ The mean squared error for train and validation are as follows:
 ## Test speed prediction(the ground truth is not released publicly)
 The speed prediction for test video(test.mp4) is generated and saved in this repo as **test.txt**.
 
+## Running the code
+
+Simply run the speed_challenge.py. 
+
 
