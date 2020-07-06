@@ -30,11 +30,15 @@ The mean squared error for train and validation are as follows:
 - Train - 4.7
 - Validation - 2.66
 
-The training and validation graph:
+The training graph:
 
 ![Train Graph](/training_dataset.png) 
 
+The test graph: 
+
 ![Validation Graph](/Validation_Dataset.png)
 
+
+The speed prediction for test video(test.mp4) is generated and saved in this repo as **test.txt**.
 
 
