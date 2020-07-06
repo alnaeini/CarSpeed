@@ -1,5 +1,7 @@
 # DashCamp_CarSpeed
 
+In this project, speed of a car is predicted using optical flow concept that takes  recorded video from a Dash Cam located under mirror in front of the car as  the  input and predict the speed of the car with less than 3% mean squared error tested on validation dataset.
+
 
 ## Introduction
 
