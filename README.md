@@ -45,6 +45,6 @@ The speed prediction for test video(test.mp4) is generated and saved in this rep
 
 ## Running the code
 
-Simply run the speed_challenge.py. 
+First, down;apd the data folder [speedchallenge](https://github.com/commaai/speedchallenge). Then just run the speed_challenge.py (make sure tools.py is avaiable in the same directory). 
 
 
