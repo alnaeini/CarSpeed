@@ -161,7 +161,7 @@ class Speed_Car():
         self.v_train.release()
 
         # split train mp4 to train and validation
-        split = self.frame_idx//10
+        split = self.frame_idx//20
         train_preds = self.temp_preds[:self.frame_idx-split]
         val_preds = self.temp_preds[self.frame_idx - split:self.frame_idx]
         gt_train = self.gt[:len(train_preds)]
