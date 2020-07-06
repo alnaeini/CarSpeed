@@ -1,8 +1,5 @@
 # DashCamp_CarSpeed
 
-In this project, speed of a car is predicted using optical flow concept that takes  recorded video from a Dash Cam located under mirror in front of the car as  the  input and predict the speed of the car with less than 3% mean squared error tested on validation dataset.
-
-
 ## Introduction
 
 This repos is an attempt to address the commaai challenge. The challenge is  to predict the car speed with recorded videos from Dash Cam located under the mirror in front of a car. Check this link for more details about the challenge and downloading the data: [speedchallenge](https://github.com/commaai/speedchallenge).
