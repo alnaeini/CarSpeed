@@ -1,8 +1,14 @@
 # DashCamp_CarSpeed
 
+
+## Introduction
+
 This repos is an solution to the commaai challenge. that challenge to predict the car speed with only video from Dash Cam located under mirror in front. 
 
 Check this link for more details about the challenge and downloading the data: [speedchallenge](https://github.com/commaai/speedchallenge).
+
+
+## Optical Flow  
 
 Based on previous attempts, one of the fastest approach in terms of training and performance is to apply the **Optical flow**.
 
@@ -12,11 +18,23 @@ Using Optical flow, can calculate the two components of speed(u,v) using the fol
 
 ![equation](OpticalFlowEquation.png)
 
+where **V** and **\omega** are the linear and angular velocities of the camera and **h** is the distance between the camera and the plane(road).
+
+In this approach the angular velocity is neglected and focused on linear velocity. for more details can take a look at this blog and its paper refrencese:[Car speed estimation from a windshild camera](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html).
+
+
+## Results  
+
+The train dataset(train.mp4) is divided into the data into **train(95%) and validation(5%)**. 
+The mean squared error for train and validation are as follows: 
+- Train - 4.7
+- Validation - 2.66
+
+The training and validation graph:
+
+![Train Graph](/training_dataset.png) 
+
+![Validation Graph](/Validation_Dataset.png)
 
 
 
-Split up the data into train(95%) and validation(5%). 
-<br>
-MSE -
- - Train - 4.7
- - Validation - 2.66
