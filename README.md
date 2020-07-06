@@ -27,8 +27,8 @@ In this approach the angular velocity is neglected and focused on linear velocit
 
 The train dataset(train.mp4) is divided into the data into **train(95%) and validation(5%)**. 
 The mean squared error for train and validation are as follows: 
-- Train - 4.7
-- Validation - 2.66
+- Training dataset - 4.7
+- Validation dataset - 2.66
 
 ## Plot 
 
