@@ -23,18 +23,21 @@ where **V** and **\omega** are the linear and angular velocities of the camera a
 In this approach the angular velocity is neglected and focused on linear velocity. for more details can take a look at this blog and its paper refrencese:[Car speed estimation from a windshild camera](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html).
 
 
-## Results  
+## Performance   
 
 The train dataset(train.mp4) is divided into the data into **train(95%) and validation(5%)**. 
 The mean squared error for train and validation are as follows: 
 - Train - 4.7
 - Validation - 2.66
 
-The training graph:
+## Plot 
+
+### The training graph:
 
 ![Train Graph](/training_dataset.png) 
 
-The test graph: 
+
+### The valiation graph: 
 
 ![Validation Graph](/Validation_Dataset.png)
 
