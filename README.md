@@ -10,9 +10,9 @@ This repos is an attempt to address the commaai challenge. The challenge is  to 
 
 Based on previous attempts, one of the fastest approach in terms of training and performance is to apply the **Optical flow** concept.
 
-Optical flow is one of the most basic concepts in computer vision, and refers to the apparent motion of objects in the image due to the relative motion between the camera and the scene.
+Optical flow is one of the most basic concepts in computer vision, and refers to the apparent motion of objects in the image due to the relative motion between  camera and scene.
 
-Using Optical flow, can calculate the two components of speed(u,v) using the following equations: 
+Using Optical flow, we can calculate the two components of speed(u,v) using the following equations: 
 
 ![equation](OpticalFlowEquation.png)
 
