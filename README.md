@@ -15,7 +15,7 @@ Using Optical flow, we can calculate the two components of speed(u,v) using the 
 
 ![equation](OpticalFlowEquation.png)
 
-where **V** and **\omega** are the linear and angular velocities of the camera and **h** is the distance between the camera and the plane(road).
+where **V** and **w** are the linear and angular velocities of the camera and **h** is the distance between the camera and the plane(road).
 
 In this approach the angular velocity is neglected. for more details, can take a look at this blog and its references:[Car speed estimation from a windshild camera](https://nicolovaligi.com/car-speed-estimation-windshield-camera.html).
 
